@@ -17,6 +17,21 @@ func main(){
 
   switch prato{
     case "B":
-      fmt.println("")
+      fmt.println("Com batata ou maionese ?")
+    case "P":
+      fmt.println("Calabresa OU Mussarela ?")
+    case "H":
+      fmt.println("Com queijo ou ovo ?")
+    case "S":
+      fmt.println("Alface ou rucula ?")
+    case "F":
+      fmt.println("Banana ou Maça")
+    case "E":
+      fmt.println("Carne ou queijo")
+    case "O":
+      fmt.println("Não gostou do nosso cardapio")    
+    default:
+    case "H":
+    fmt.println("Não entendi seu paradar !! ")
   }
 }
